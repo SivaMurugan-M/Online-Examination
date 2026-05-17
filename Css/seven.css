@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    border-bottom: 1px solid #eeeeee;
+}
+
+.right-corner{
+    width: 149px;
+    height: 61px;
+    border-radius: 20px;
+    background-color: #CDE2FF;
+    cursor: pointer;
+}
+
+.section-wrapper{
+    background-color: #CDE2FF;
+}
+
+.box{
+    height: 1100px;
+    border-radius: 39px;
+    background-color: #FFFFFF;
+    
+}
+.header-box{
+    height: 180px;
+    width: 100%;
+    background-color: #000151;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px;
+}
+
+.child-boxes1{
+    width: 378px;
+    height: 104px;
+    border-radius: 22px;
+    background-color: #F4ECFD;
+    border: 1px solid #D573D9;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+.child-boxes2{
+    width: 378px;
+    height: 104px;
+    border-radius: 22px;
+    background-color: #CDE2FF;
+    border: 1px solid #006AFF;
+    padding: 15px;
+    margin-left: 15px;
+}
+.round-box{
+    width: 24px;
+    height: 24px;
+    border-radius: 15px;
+    background-color: #D4D5FF;
+    color: #600098;
+}
+.exam-intro-box{
+    margin-left: 25px;
+    width: 785px;
+    height: 59px;
+    border-radius: 14px;
+    padding: 6px;
+    border: 1px solid #F7F7F7;
+    background-color: #F7F7F7;
+
+}
+
+.button{
+    width: 146px;
+    height: 58px;
+    border-radius: 17px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    color:#9E9E9E;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #000151;
+    border: 1px solid #006AFF;
+    color: #FFFFFF;
+}

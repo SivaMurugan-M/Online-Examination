@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Common tags */
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 8px;
+    
+}
+a:hover{
+    border: 1px solid black;
+    border-radius: 12px;
+    color:white;
+    background-color: #000151;
+}
+/* Header section */
+    header{
+    border-bottom: 1px solid black;
+    
+}
+.button-wrapper{
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(244, 239, 239);
+}
+.button-wrapper:hover{
+    color:white;
+    background-color: #000151;
+}
+/* Header ended */
+/* body section */
+.exam-button {
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+/* Hide icon by default */
+.arrow-icon {
+    width: 22px;
+    height: 18px;
+    opacity: 0;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+/* Show icon + change color when hovering Join button */
+.join-btn:hover,.try-btn:hover{
+    background-color: #000151;
+    color: #ffffff;
+}
+
+.join-btn:hover .arrow-icon,.create-btn:hover .arrow-icon ,.try-btn:hover .arrow-icon{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.features-wrapper{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 248px;
+}
+.icon-wrapper{
+    background-color: #000151;
+    color: #ffffff;
+    padding: 5px;
+    width: 37px;
+    border-radius: 7px;
+}
+.content-wrapper{
+    border-radius: 50px;
+    height: 321px;
+    background-color: #000151;
+}
+.margin-wrapper{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* Footer start */
+.footer-wrapper{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}

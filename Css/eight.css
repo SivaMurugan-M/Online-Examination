@@ -1,0 +1,38 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+nav{
+    border-bottom: 1px solid #9e9e9e;
+}
+.submit-exam{
+    width: 175px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #000151;
+    color: #ffffff;
+    font-family: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    width: 131px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #CDE2FF;
+    color: #006AFF;
+    font-family: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
